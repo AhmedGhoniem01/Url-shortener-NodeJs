@@ -1,0 +1,6 @@
+POST http://localhost:5000/api/url/shorten
+Content-Type: application/json
+
+{
+    longUrl: "https://www.amazon.eg/-/en/b/?_encoding=UTF8&node=21840370031&bbn=18020637031&ref_=Oct_d_odnav_d_21840248031_0&pd_rd_w=adto6&content-id=amzn1.sym.9b767a8f-cd46-40ae-92c6-59bc5bc66814&pf_rd_p=9b767a8f-cd46-40ae-92c6-59bc5bc66814&pf_rd_r=6454TSJ7TN93MPTJX1W3&pd_rd_wg=E6n6t&pd_rd_r=d56f044f-9b02-47b2-addf-c19e484bc394"
+}
