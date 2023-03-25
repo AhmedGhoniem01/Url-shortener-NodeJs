@@ -42,6 +42,15 @@ exports.shortenUrl = async(req, res) => {
     }
 } 
 
-exports.getLongUrl= () => {
-    
+exports.getLongUrl= async(req, res) => {
+    try{
+    let url = await Url.findOne({urlCode: req.params.code});
+        if(url){
+            return res.redirect(url.longUrl);
+        }else{
+            res.status(400).json('This Url can not be found');
+        }
+    }catch(err){
+        return res.status(500).json('Server Error: Can not fetch long url');
+    }
 }
