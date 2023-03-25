@@ -12,9 +12,9 @@ Packages Used:
   - valid-url
   - nodemon
   
-  ## Run the project:
-  # 1- Install packages:   npm i => Install all dependencies
-  # 2- Connect to mongo-atlas and use your own onnectionUri inside config/default.json
+  # Run the project:
+  ## 1- Install packages:   npm i => Install all dependencies
+  ## 2- Connect to mongo-atlas and use your own onnectionUri inside config/default.json
   
   
  
